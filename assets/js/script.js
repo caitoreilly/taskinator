@@ -106,6 +106,7 @@ var taskButtonHandler = function (event) {
     // get the elemen'ts task id
     var taskId = event.target.getAttribute("data-task-id");
     console.log("you clicked a delete button!");
+    deleteTask(taskId);
   }
 };
 
