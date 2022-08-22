@@ -6,7 +6,8 @@ var tasksInProgressEl = document.querySelector("#tasks-in-progress");
 var tasksCompletedEl = document.querySelector("#tasks-completed");
 
 // create tasks array variable
-var tasks = [];
+var taskIdCounter = [];
+console.log(tasks[i]);
 
 var taskFormHandler = function (event) {
   event.preventDefault();
